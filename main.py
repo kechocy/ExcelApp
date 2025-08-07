@@ -113,7 +113,7 @@ class ToolTip:
 class ExcelMergerApp: 
     def __init__(self, root): 
         self.root = root 
-        self.root.title("Excel 合并工具") 
+        self.root.title("Excel 工具") 
         self.root.geometry("900x600")
         self.root.iconbitmap(self.resource_path("icon.ico"))
         self.template_file = ""
